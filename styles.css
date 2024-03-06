@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: JetBrains Mono;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color:#56070c;
+    color: white;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    padding: 3em;
+}
+
+header img {
+  float: left;
+  border-radius: 100px;
+  width: 150px;
+  margin-left:xpx;
+  margin:2em;
+  
+  border-style: solid;
+  border-color: #D4AF37;    
+}
+
+.brand span{
+ color: #D4AF37;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu .active {
+    color:#D4AF37 ;
+}
+
+.menu a:hover {
+ background-color:#D4AF37;
+ color: black;
+ transition: ease-in .3s;
+}
+
+
+
+.mein {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items:center;
+}
+
+.info-content {
+    padding-right: 10px;
+}
+
+.info-content p {
+  font-size: 25px;
+}
+
+
+h1 {
+    font-size: 3em;
+    
+}
+
+ span {
+    color: #D4AF37;
+    padding: 10px;
+ }
+
+
+ .pide-aqui {
+    padding: 20px ;
+    background-color:#D4AF37;
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(102, 200,69);
+    color:white;
+    
+ }
+
+ .pide-aqui:hover {
+    background-color:rgb(97, 6, 6);
+    box-shadow: none;
+ }
+
+ .mein img {
+    width: 550px;
+    border-radius: 100%;
+    background-color: transparent;
+ }
+
+
+
+ /* ya aqui empiezo a editar lo que es la sesion 2 del sitio web obiamente esto es una guia mas para mi.para no perderme*/
+ 
+ .coffee {
+    padding: 100px 0;
+    background-color:#E1E2E6;
+    position: relative;
+    width: 100vw;
+ }
+
+.coffee-content {
+    text-align: center;
+}
+
+.coffee-content  h2 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercas3;
+    padding:  20px 20px;
+    margin-bottom: 15px;
+}
+
+
+.coffee-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+.coffee-1{
+    padding: 0 20px;
+}
+
+ 
+.producto-1 img {
+    width: 160px;
+}
+
+.producto-1 h3 {
+    color: #323337;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color:#D4AF37;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(102, 200,69);
+    color:white;
+}
+
+
+/* aqui empieza la sesion de servicios*/
+
+
+.servivios-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #56070c;
+    
+}
+
+#h1-2 {
+    font-size: 4em;
+    color: white;
+    padding: 14px  400px;
+}
+
+
+.servivios-container img {
+    background-color:transparent;
+    width: 270px;
+    position: absolute;
+    right: 17%;
+ 
+}
+
+.servicios {
+    color:white;
+    font-size: 45px;
+    padding: 100px;
+    margin: 50px;
+    border: 10px solid ;
+    width: 65%;
+    height: 70%;
+}
+
+
+
+/*sesion de nosotros*/
+
+.nosotros {
+    
+    height: 100vh;
+    background-color:#E1E2E6;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+    
+  }
+  
+  .nosotros img {
+    width: 80%;
+    grid-column: 1/5;
+   
+  }
+  
+  .nosotros-info {
+    grid-column: 5/10;
+    padding: 3em;
+  }
+  
+  .nosotros-info h2 {
+    font-size: 2em;
+    color: #191c32;
+  }
+  
+  .divider {
+    height: 4px;
+    width: 60px;
+    background-color:#56070c;
+    margin-top: 5px;
+    margin-bottom: 2em;
+  }
+  
+  .nosotros p {
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+
+
+.contactame{
+  display: flex;
+}
+
+
+  form {
+    border:3px solid #56070c;
+    padding: 20px;
+    width: 500px;
+    padding-top: 20px;
+
+  }
+
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 10px;
+    
+  }
+
+  input, textarea {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+   
+  }
+
+  textarea {
+    height: 100px;
+    width: 300px;
+    resize: none;
+    
+  }
+
+  button {
+    background-color:#D4AF37;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #950032;
+  }
+
+  
+  
